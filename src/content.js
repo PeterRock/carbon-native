@@ -28,7 +28,7 @@ const defaultProps = {
 };
 
 export default function Content(props) {
-  const contentStyle = [cs.container, cs.padding, props.style];
+  const contentStyle = [cs.container, props.style];
   if (props.scroll === true) {
     return (
       <ScrollView
