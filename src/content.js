@@ -19,18 +19,16 @@ const propTypes = {
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,
   ]),
-  padding: PropTypes.bool,
   scroll: PropTypes.bool,
   style: PropTypes.any,
 };
 
 const defaultProps = {
-  padding: false,
   scroll: true,
 };
 
 export default function Content(props) {
-  const contentStyle = [cs.container, props.padding && cs.padding, props.style];
+  const contentStyle = [cs.container, cs.padding, props.style];
   if (props.scroll === true) {
     return (
       <ScrollView

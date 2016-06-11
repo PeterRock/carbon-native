@@ -18,19 +18,16 @@ const propTypes = {
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,
   ]),
-  padding: PropTypes.bool,
   style: PropTypes.any,
 };
 
-const defaultProps = {
-  padding: false,
-};
+const defaultProps = {};
 
 export default function Container(props) {
   return (
     <View
       {...props}
-      style={[cs.container, props.padding && cs.padding, props.style]}
+      style={[cs.container, props.style]}
     >
       {props.children}
     </View>
