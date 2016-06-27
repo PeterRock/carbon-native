@@ -23,8 +23,8 @@ export const colors = {
   royalActive: '#7E59FF', // @todo: update active color
   dark: '#222',
   darkActive: '#343434',
-  muted: '#888',
-  mutedActive: '#DCDCDC',
+  muted: '#777',
+  mutedActive: '#EEE',
 };
 
 export const carbonStyles = {
