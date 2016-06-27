@@ -169,14 +169,13 @@ export const carbonStyles = {
   list: {
     // alignSelf: 'stretch',
     borderBottomWidth: StyleSheet.hairlineWidth,
-    borderColor: '#CDCDCD',
+    borderColor: '#EEEEEE',
     backgroundColor: '#fff',
   },
   item: {
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
-    paddingLeft: 15,
     backgroundColor: '#fff',
   },
   itemLast: {
@@ -187,8 +186,9 @@ export const carbonStyles = {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
+    paddingLeft: 15,
     paddingRight: 15,
-    borderBottomColor: '#CDCDCD',
+    borderBottomColor: '#EEEEEE',
     borderBottomWidth: StyleSheet.hairlineWidth,
   },
   itemText: {
@@ -224,7 +224,7 @@ export const carbonStyles = {
   },
   itemHeader: {
     borderBottomWidth: StyleSheet.hairlineWidth,
-    borderBottomColor: '#CDCDCD',
+    borderBottomColor: '#EEEEEE',
   },
   itemHeaderText: {
     fontSize: 14,
