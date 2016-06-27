@@ -23,6 +23,8 @@ export const colors = {
   royalActive: '#7E59FF', // @todo: update active color
   dark: '#222',
   darkActive: '#343434',
+  muted: '#888',
+  mutedActive: '#666',
 };
 
 export const carbonStyles = {
@@ -322,6 +324,12 @@ export const carbonStyles = {
   },
   darkBgActive: {
     backgroundColor: colors.darkActive,
+  },
+  muted: {
+    color: colors.muted,
+  },
+  mutedBg: {
+    backgroundColor: colors.mutedActive,
   },
 
   // margin
