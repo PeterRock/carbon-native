@@ -155,6 +155,9 @@ export const carbonStyles = {
   btnTextSm: {
     fontSize: 12,
   },
+  btnTextXsm: {
+    fontSize: 10,
+  },
   btnLg: {
     padding: 16,
   },
