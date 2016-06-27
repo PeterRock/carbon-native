@@ -24,7 +24,7 @@ export const colors = {
   dark: '#222',
   darkActive: '#343434',
   muted: '#888',
-  mutedActive: '#666',
+  mutedActive: '#DCDCDC',
 };
 
 export const carbonStyles = {
