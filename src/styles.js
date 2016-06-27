@@ -336,6 +336,9 @@ export const carbonStyles = {
   margin: {
     margin: 10,
   },
+  marginLg: {
+    margin: 15,
+  },
   marginVertical: {
     marginVertical: 10,
   },
