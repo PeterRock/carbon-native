@@ -15,15 +15,16 @@ export const colors = {
   calmActive: '#11c1f3', // @todo: update active color
   secondary: '#00C853',
   secondaryActive: '#49b94d',
-  energized: '#FFC600',
-  energizedActive: '#FFC600', // @todo: update active color
+  energized: '#FF9D17',
+  energizedActive: '#f39d1c', // @todo: update active color
+  // danger: '#F83B36',#f95e1a
   danger: '#F83B36',
   dangerActive: '#e13838',
   royal: '#7E59FF',
   royalActive: '#7E59FF', // @todo: update active color
   dark: '#222',
   darkActive: '#343434',
-  muted: '#777',
+  muted: '#888',
   mutedActive: '#EEE',
 };
 
@@ -38,42 +39,38 @@ export const carbonStyles = {
     flexDirection: 'row',
     justifyContent: 'center',
   },
-
+  center: {
+    alignItems: 'center',
+  },
   // typography
   h1: {
-    marginBottom: 10,
-    fontWeight: '500',
     fontSize: 36,
   },
   h2: {
-    marginBottom: 10,
-    fontWeight: '500',
     fontSize: 30,
   },
   h3: {
-    marginBottom: 10,
-    fontWeight: '500',
     fontSize: 24,
   },
   h4: {
-    marginBottom: 10,
-    fontWeight: '500',
-    fontSize: 18,
+    fontSize: 20,
   },
   h5: {
-    marginBottom: 10,
-    fontWeight: '500',
-    fontSize: 14,
+    fontSize: 18,
   },
   h6: {
-    marginBottom: 10,
-    fontWeight: '500',
-    fontSize: 12,
+    fontSize: 16,
+  },
+  text: {
+    fontSize: 14,
+    color: colors.dark,
   },
   p: {
-    marginBottom: 10,
     flexDirection: 'row',
     flexWrap: 'wrap',
+  },
+  bold: {
+    fontWeight: '500',
   },
   a: {
     color: colors.primary,
