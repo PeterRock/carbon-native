@@ -26,10 +26,10 @@ const defaultProps = {};
 export default function Card(props) {
   return (
     <View
-      shadowColor="rgba(0, 0, 0, 0.3)"
-      shadowOffset={{ width: 0, height: 1 }}
+      shadowColor="rgba(128, 128, 128, 0.1)"
+      shadowOffset={{ width: 0, height: 2 }}
       shadowOpacity={1}
-      shadowRadius={2}
+      shadowRadius={5}
       {...props}
       style={[cs.card, props.style]}
     >
